@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B9731CA1D89A3FF008E66CA /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9731C91D89A3FF008E66CA /* Tile.m */; };
+		5B9731CD1D89A429008E66CA /* Weapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9731CC1D89A429008E66CA /* Weapon.m */; };
+		5B9731D01D89A452008E66CA /* Armor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9731CF1D89A452008E66CA /* Armor.m */; };
+		5B9731D31D89A467008E66CA /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9731D21D89A467008E66CA /* Character.m */; };
+		5B9731D61D89A47B008E66CA /* Boss.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9731D51D89A47B008E66CA /* Boss.m */; };
+		5B9731DA1D89A712008E66CA /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9731D91D89A712008E66CA /* Factory.m */; };
 		5BC112511B8CCF570033F35B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC112501B8CCF570033F35B /* main.m */; };
 		5BC112541B8CCF570033F35B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC112531B8CCF570033F35B /* AppDelegate.m */; };
 		5BC112571B8CCF570033F35B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC112561B8CCF570033F35B /* ViewController.m */; };
@@ -27,6 +33,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B9731C81D89A3FF008E66CA /* Tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tile.h; sourceTree = "<group>"; };
+		5B9731C91D89A3FF008E66CA /* Tile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tile.m; sourceTree = "<group>"; };
+		5B9731CB1D89A429008E66CA /* Weapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weapon.h; sourceTree = "<group>"; };
+		5B9731CC1D89A429008E66CA /* Weapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weapon.m; sourceTree = "<group>"; };
+		5B9731CE1D89A452008E66CA /* Armor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Armor.h; sourceTree = "<group>"; };
+		5B9731CF1D89A452008E66CA /* Armor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Armor.m; sourceTree = "<group>"; };
+		5B9731D11D89A467008E66CA /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		5B9731D21D89A467008E66CA /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
+		5B9731D41D89A47B008E66CA /* Boss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boss.h; sourceTree = "<group>"; };
+		5B9731D51D89A47B008E66CA /* Boss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Boss.m; sourceTree = "<group>"; };
+		5B9731D81D89A712008E66CA /* Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
+		5B9731D91D89A712008E66CA /* Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
 		5BC1124B1B8CCF570033F35B /* Pirate Adventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pirate Adventure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BC1124F1B8CCF570033F35B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BC112501B8CCF570033F35B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +78,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B9731C71D89A3DE008E66CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B9731D71D89A6FF008E66CA /* Factory */,
+				5B9731C81D89A3FF008E66CA /* Tile.h */,
+				5B9731C91D89A3FF008E66CA /* Tile.m */,
+				5B9731CE1D89A452008E66CA /* Armor.h */,
+				5B9731CF1D89A452008E66CA /* Armor.m */,
+				5B9731CB1D89A429008E66CA /* Weapon.h */,
+				5B9731CC1D89A429008E66CA /* Weapon.m */,
+				5B9731D11D89A467008E66CA /* Character.h */,
+				5B9731D21D89A467008E66CA /* Character.m */,
+				5B9731D41D89A47B008E66CA /* Boss.h */,
+				5B9731D51D89A47B008E66CA /* Boss.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5B9731D71D89A6FF008E66CA /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				5B9731D81D89A712008E66CA /* Factory.h */,
+				5B9731D91D89A712008E66CA /* Factory.m */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
 		5BC112421B8CCF560033F35B = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +130,7 @@
 				5BC112531B8CCF570033F35B /* AppDelegate.m */,
 				5BC112551B8CCF570033F35B /* ViewController.h */,
 				5BC112561B8CCF570033F35B /* ViewController.m */,
+				5B9731C71D89A3DE008E66CA /* Model */,
 				5BC112581B8CCF570033F35B /* Main.storyboard */,
 				5BC1125B1B8CCF570033F35B /* Images.xcassets */,
 				5BC1125D1B8CCF570033F35B /* LaunchScreen.xib */,
@@ -163,11 +209,12 @@
 		5BC112431B8CCF560033F35B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Vitor Sousa";
 				TargetAttributes = {
 					5BC1124A1B8CCF570033F35B = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 8NN9L4Q66L;
 					};
 					5BC112631B8CCF570033F35B = {
 						CreatedOnToolsVersion = 6.4;
@@ -219,9 +266,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B9731D61D89A47B008E66CA /* Boss.m in Sources */,
+				5B9731DA1D89A712008E66CA /* Factory.m in Sources */,
 				5BC112571B8CCF570033F35B /* ViewController.m in Sources */,
+				5B9731D31D89A467008E66CA /* Character.m in Sources */,
 				5BC112541B8CCF570033F35B /* AppDelegate.m in Sources */,
+				5B9731CD1D89A429008E66CA /* Weapon.m in Sources */,
+				5B9731D01D89A452008E66CA /* Armor.m in Sources */,
 				5BC112511B8CCF570033F35B /* main.m in Sources */,
+				5B9731CA1D89A3FF008E66CA /* Tile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,14 +329,17 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -319,8 +375,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -347,8 +405,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8NN9L4Q66L;
 				INFOPLIST_FILE = "Pirate Adventure/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.worldofclouds.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -357,8 +417,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8NN9L4Q66L;
 				INFOPLIST_FILE = "Pirate Adventure/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.worldofclouds.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -367,16 +429,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Pirate AdventureTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.worldofclouds.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pirate Adventure.app/Pirate Adventure";
 			};
@@ -386,12 +446,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "Pirate AdventureTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.worldofclouds.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pirate Adventure.app/Pirate Adventure";
 			};
@@ -416,6 +474,7 @@
 				5BC112701B8CCF570033F35B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BC112711B8CCF570033F35B /* Build configuration list for PBXNativeTarget "Pirate AdventureTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +483,7 @@
 				5BC112731B8CCF570033F35B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
