@@ -12,12 +12,16 @@
 
 @interface ViewController : UIViewController
 
+
+- (void)restartGame;
+
 //iVars
 
 @property (nonatomic) CGPoint currentPoint;
 @property (strong, nonatomic) NSArray *tiles;
 @property (strong, nonatomic) Character *myCharc;
 @property (strong, nonatomic) Boss *boss;
+
 
 //Outlets
 @property (strong, nonatomic) IBOutlet UIImageView *backgroundImageView;
@@ -37,7 +41,6 @@
 
 //Actions
 - (IBAction)actionButton:(UIButton *)sender;
-- (IBAction)restartGameButton:(UIButton *)sender;
 
 - (IBAction)NorteButton:(UIButton *)sender;
 - (IBAction)LesteButton:(UIButton *)sender;

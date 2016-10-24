@@ -18,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
     Factory *factory = [[Factory alloc] init];
     _tiles = [factory tiles];
     _myCharc = [factory character];
@@ -36,6 +37,17 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - Restart Game Method
+
+- (void)restartGame{
+    
+    _myCharc = nil;
+    _boss = nil;
+    
+    [self viewDidLoad];
+    
 }
 
 #pragma mark - IBActions
@@ -59,6 +71,8 @@
         [alert addAction:ok];
         [self presentViewController:alert animated:YES completion:nil];
         
+        [self restartGame];
+        
     }else if(_boss.health <= 0){
         
         UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Parabéns!" message:@"Você derrotou o pirata, você ganhou!" preferredStyle:UIAlertControllerStyleAlert];
@@ -68,21 +82,13 @@
         [alert addAction:ok];
         [self presentViewController:alert animated:YES completion:nil];
         
+        [self restartGame];
+        
     }
     
     [self changeTile];
     
 }
-
-- (IBAction)restartGameButton:(UIButton *)sender {
-    
-    _myCharc = nil;
-    _boss = nil;
-    
-    [self viewDidLoad];
-    
-}
-
 
 - (IBAction)NorteButton:(UIButton *)sender {
     
@@ -141,7 +147,7 @@
 }
 
 -(void)updateCharacterStatsForArmor:(Armor *)armor withWeapons:(Weapon *)weapon withHealthEffect:(int) healthEffect{
-    
+   
     if(armor != nil){
         _myCharc.health = _myCharc.health - _myCharc.armor.health + armor.health;
         _myCharc.armor = armor;
