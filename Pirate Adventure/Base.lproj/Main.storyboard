@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -188,15 +188,15 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="F7g-ka-1IF" secondAttribute="trailing" id="4K9-i2-u4u"/>
-                            <constraint firstItem="dXM-6A-D5R" firstAttribute="top" secondItem="SBL-0t-lYZ" secondAttribute="bottom" constant="37" id="5bb-KI-TkM"/>
+                            <constraint firstItem="dXM-6A-D5R" firstAttribute="top" secondItem="SBL-0t-lYZ" secondAttribute="bottom" constant="22" id="5bb-KI-TkM"/>
                             <constraint firstItem="dXM-6A-D5R" firstAttribute="centerY" secondItem="Ogt-2P-phc" secondAttribute="centerY" id="92z-45-kVi"/>
                             <constraint firstItem="Ogt-2P-phc" firstAttribute="trailing" secondItem="HiC-pR-BbE" secondAttribute="trailing" id="9cQ-ZK-5qM"/>
                             <constraint firstItem="F7g-ka-1IF" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="AqV-3h-PjU"/>
                             <constraint firstItem="Ogt-2P-phc" firstAttribute="leading" secondItem="dXM-6A-D5R" secondAttribute="trailing" constant="24" id="FDb-Ht-bHb"/>
                             <constraint firstItem="F7g-ka-1IF" firstAttribute="trailing" secondItem="SBL-0t-lYZ" secondAttribute="trailing" id="FhO-nO-fCq"/>
-                            <constraint firstItem="Ogt-2P-phc" firstAttribute="top" secondItem="SBL-0t-lYZ" secondAttribute="bottom" constant="9" id="GI4-vE-rh3"/>
+                            <constraint firstItem="Ogt-2P-phc" firstAttribute="top" secondItem="SBL-0t-lYZ" secondAttribute="bottom" constant="-6" id="GI4-vE-rh3"/>
                             <constraint firstItem="dXM-6A-D5R" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="30" id="LPa-B3-OoM"/>
-                            <constraint firstItem="HiC-pR-BbE" firstAttribute="top" secondItem="Ogt-2P-phc" secondAttribute="bottom" constant="57" id="a3v-mQ-e3m"/>
+                            <constraint firstItem="HiC-pR-BbE" firstAttribute="top" secondItem="Ogt-2P-phc" secondAttribute="bottom" constant="41" id="a3v-mQ-e3m"/>
                             <constraint firstItem="SBL-0t-lYZ" firstAttribute="top" secondItem="F7g-ka-1IF" secondAttribute="bottom" constant="8" symbolic="YES" id="eXj-DG-dPs"/>
                             <constraint firstItem="SBL-0t-lYZ" firstAttribute="trailing" secondItem="Ogt-2P-phc" secondAttribute="trailing" id="kRs-bD-h1O"/>
                             <constraint firstItem="F7g-ka-1IF" firstAttribute="leading" secondItem="SBL-0t-lYZ" secondAttribute="leading" id="kx0-Hx-ZZ1"/>

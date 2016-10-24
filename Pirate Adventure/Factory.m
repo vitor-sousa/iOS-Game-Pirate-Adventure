@@ -13,7 +13,7 @@
 -(NSArray *)tiles{
     
     Tile *tile1 = [[Tile alloc] init];
-    tile1.story = @"Capitão, precisamos de um líder sem medo, como você para uma aventura. Você deve derrotar o pirata mal antes que ele roube mais. Gostaria de uma espada embotada para começar?";
+    tile1.story = @"Capitão, precisamos de um líder sem medo, como você para uma aventura. Você deve derrotar o pirata mal antes que ele roube mais. Gostaria de uma espada embotada para começar? Utilize as setas abaixo para navegar e o botão de ação para interagir.";
     tile1.backgroundImage = [UIImage imageNamed:@"PirateStart"];
     
     Weapon *espada = [[Weapon alloc] init];
